@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putri Revalina Yuliani Dewi | Portfolio Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="circle"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="particle"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">PutriRevalina</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link active" data-content="home">Beranda</a></li>
+                <li><a href="#" class="nav-link" data-content="about">Tentang Saya</a></li>
+                <li><a href="#" class="nav-link" data-content="skills">Keahlian & Minat</a></li>
+                <li><a href="#" class="nav-link" data-content="portfolio">Portofolio</a></li>
+                <li><a href="#" class="nav-link" data-content="experience">Pengalaman</a></li>
+                <li><a href="#" class="nav-link" data-content="education">Pendidikan</a></li>
+                <li><a href="#" class="nav-link" data-content="hobbies">Hobi</a></li>
+                <li><a href="#" class="nav-link" data-content="contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Profile -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="profile-img-container">
+                    <div class="profile-img" id="profileImage">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="online-status"></div>
+                </div>
+                <h1 class="profile-name">Putri Revalina Yuliani Dewi</h1>
+                <p class="profile-title">Siswa SMA Negeri 1 Magetan</p>
+                
+                <div class="profile-stats">
+                    <div class="stat">
+                        <span class="stat-number">SMA</span>
+                        <span class="stat-label">Pendidikan</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Aktif</span>
+                        <span class="stat-label">Status</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Semangat</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://instagram.com/sgtxyhx" target="_blank" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Telepon">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+
+                <button class="btn-introduce" id="introduceBtn">
+                    <i class="fas fa-volume-up"></i> Perkenalkan Saya
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section class="content-section active" id="homeContent">
+                <div class="hero">
+                    <h2 class="hero-greeting">Halo, Saya <span class="highlight">Putri Revalina</span></h2>
+                    <p class="hero-subtitle">Siswa SMA yang Bersemangat Belajar</p>
+                    <p class="hero-description">
+                        Saya adalah siswa SMA Negeri 1 Magetan yang memiliki ketertarikan terhadap hal-hal baru, 
+                        terutama yang bermanfaat dan dapat memberikan dampak positif bagi orang lain. Saya senang 
+                        belajar hal baru serta mengembangkan diri melalui berbagai pengalaman dan proses pembelajaran.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary">Hubungi Saya</a>
+                        <a href="#portfolio" class="btn-secondary">Lihat Aktivitas</a>
+                    </div>
+                </div>
+
+                <div class="quick-info">
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Pendidikan</h3>
+                        <p>SMA Negeri 1 Magetan</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Minat</h3>
+                        <p>Belajar Hal Baru</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Karakter</h3>
+                        <p>Santai & Adaptif</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="content-section" id="aboutContent">
+                <div class="section-header">
+                    <h2>Tentang Saya</h2>
+                    <p>Mengenal lebih dekat mengenai diri saya</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Saya merupakan pribadi yang sedikit tertutup di awal, namun akan menjadi lebih terbuka 
+                            dan nyaman ketika sudah mengenal dan dekat dengan orang lain. Saya memiliki kepribadian 
+                            yang santai, tetapi tetap mampu menyesuaikan diri dengan situasi dan kondisi yang ada.
+                        </p>
+                        <p>
+                            Melalui website pribadi ini, saya ingin berbagi minat, pengalaman, dan informasi mengenai 
+                            saya, sekaligus menjadikannya sebagai ruang untuk terus berkembang dan belajar.
+                        </p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-label">Nama Lengkap:</span>
+                                <span class="info-value">Putri Revalina Yuliani Dewi</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Sekolah:</span>
+                                <span class="info-value">SMA Negeri 1 Magetan</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Domisili:</span>
+                                <span class="info-value">Magetan, Jawa Timur</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Karakter:</span>
+                                <span class="info-value available">Santai & Adaptif</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="content-section" id="skillsContent">
+                <div class="section-header">
+                    <h2>Keahlian & Minat</h2>
+                    <p>Kemampuan dan hal-hal yang saya minati</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-brain"></i> Kemampuan</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Adaptasi</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Belajar Cepat</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Komunikasi</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pemecahan Masalah</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3><i class="fas fa-heart"></i> Minat & Ketertarikan</h3>
+                        <div class="interests">
+                            <div class="interest-item">
+                                <i class="fas fa-book-open"></i>
+                                <span>Belajar Hal Baru</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-users"></i>
+                                <span>Interaksi Sosial</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Inovasi</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <span>Membantu Orang Lain</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>Kreativitas</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-seedling"></i>
+                                <span>Pengembangan Diri</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section class="content-section" id="portfolioContent">
+                <div class="section-header">
+                    <h2>Aktivitas & Prestasi</h2>
+                    <p>Kegiatan dan pencapaian selama sekolah</p>
+                </div>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="school">Sekolah</button>
+                    <button class="filter-btn" data-filter="personal">Pribadi</button>
+                    <button class="filter-btn" data-filter="social">Sosial</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="school">
+                        <div class="portfolio-img">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Siswa Aktif</h3>
+                            <p>Keikutsertaan dalam kegiatan pembelajaran di SMA Negeri 1 Magetan</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="personal">
+                        <div class="portfolio-img">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Pengembangan Diri</h3>
+                            <p>Proses belajar dan pengembangan kemampuan pribadi</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="social">
+                        <div class="portfolio-img">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Interaksi Sosial</h3>
+                            <p>Membangun hubungan dengan teman dan lingkungan sekitar</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="school">
+                        <div class="portfolio-img">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Pencapaian Akademik</h3>
+                            <p>Hasil belajar dan perkembangan akademis di sekolah</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="content-section" id="experienceContent">
+                <div class="section-header">
+                    <h2>Pengalaman</h2>
+                    <p>Perjalanan belajar dan perkembangan diri</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sekarang</div>
+                        <div class="timeline-content">
+                            <h3>Siswa SMA Negeri 1 Magetan</h3>
+                            <h4>Proses Pembelajaran Aktif</h4>
+                            <p>Berkesempatan mengenal banyak orang baru dan mempelajari hal-hal yang sebelumnya belum diketahui. Memiliki kesempatan besar untuk menunjukkan kemampuan dan mengasahnya.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Terus Berlangsung</div>
+                        <div class="timeline-content">
+                            <h3>Pengembangan Karakter</h3>
+                            <h4>Proses Adaptasi dan Pembelajaran</h4>
+                            <p>Belajar menyesuaikan diri dengan berbagai situasi, dari pribadi yang sedikit tertutup menjadi lebih terbuka seiring berjalannya waktu dan kedekatan dengan orang lain.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Masa Depan</div>
+                        <div class="timeline-content">
+                            <h3>Rencana Pengembangan</h3>
+                            <h4>Kontinuitas Pembelajaran</h4>
+                            <p>Terus mencari hal-hal baru yang bermanfaat dan dapat memberikan dampak positif bagi orang lain melalui berbagai pengalaman dan proses pembelajaran.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="content-section" id="educationContent">
+                <div class="section-header">
+                    <h2>Pendidikan</h2>
+                    <p>Latar belakang pendidikan formal</p>
+                </div>
+                <div class="education-container">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>SMA Negeri 1 Magetan</h3>
+                            <h4>Sekolah Menengah Atas</h4>
+                            <div class="education-year">Saat Ini</div>
+                            <p>Menempuh pendidikan dengan fokus pada pengembangan diri, pengetahuan umum, dan persiapan masa depan.</p>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Pendidikan Informal</h3>
+                            <h4>Pembelajaran Mandiri</h4>
+                            <div class="education-year">Terus Berlangsung</div>
+                            <p>Belajar hal-hal baru di luar kurikulum sekolah yang bermanfaat untuk pengembangan diri.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hobbies Section -->
+            <section class="content-section" id="hobbiesContent">
+                <div class="section-header">
+                    <h2>Hobi & Kegiatan</h2>
+                    <p>Aktivitas yang saya nikmati di waktu luang</p>
+                </div>
+                <div class="hobbies-container">
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <div class="hobby-info">
+                            <h3>Membaca</h3>
+                            <p>Membaca buku dan artikel untuk memperluas wawasan</p>
+                        </div>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <div class="hobby-info">
+                            <h3>Menulis</h3>
+                            <p>Menuangkan pikiran, membuat goals dan ide melalui tulisan</p>
+                        </div>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="hobby-info">
+                            <h3>Musik</h3>
+                            <p>Mendengarkan musik untuk relaksasi dan inspirasi</p>
+                        </div>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="hobby-info">
+                            <h3>Membantu</h3>
+                            <p>Membantu orang lain dalam kapasitas yang mampu</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="content-section" id="contactContent">
+                <div class="section-header">
+                    <h2>Kontak</h2>
+                    <p>Mari terhubung dan berkomunikasi</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Instagram</h3>
+                                <p>@sgtxyhx</p>
+                                <a href="https://instagram.com/sgtxyhx" target="_blank" class="contact-link">Kunjungi Profil</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>cherllunsh02@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Lokasi</h3>
+                                <p>Magetan, Jawa Timur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Putri Revalina Yuliani Dewi. Hak cipta dilindungi.</p>
+            <p>Dibuat dengan <i class="fas fa-heart"></i> untuk berbagi dan belajar</p>
+        </div>
+    </footer>
+
+    <!-- Audio untuk voice introduction -->
+    <audio id="introAudio" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
